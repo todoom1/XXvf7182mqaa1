@@ -1,5 +1,12 @@
 (function() {
     var secretApps = [
+{img: './png/jlgj.jpg', name: '君临国际', xurl: 'aHR0cHM6Ly90ZmFqbi5oY2p3ai5jb20vYXBwL3JlZ2lzdGVyLnBocD9zaXRlX2lkPTIwODEmdG9wSWQ9MzIxNzM5OSZzZWxmUGxhbklkPTI3MzA3MTY'},
+{img: './png/sjgj.png', name: '赏金国际', xurl: 'aHR0cHM6Ly94anZ1ZWIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTAxMCZ0b3BJZD0yODgxNzc2NDIyNjUzNzY0'},
+{img: './png/xygj.jpg', name: '星耀国际', xurl: 'aHR0cHM6Ly9hbGl1YS50cHJzbWkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDU3JnRvcElkPTk4MjE3NzY0NDUyMTM5NTY'},
+{img: './png/xsd.jpg', name: '新时代', xurl: 'aHR0cHM6Ly9kZXJlYXIuZm5icHN3LmNvbS9hcHAvcmVnaXN0ZXIucGhwP3NpdGVfaWQ9MTA1OSZ0b3BJZD0yMjkxODU1JnNlbGZQbGFuSWQ9MTc4NjUyMA'},
+{img: './png/stgj.jpg', name: '胜天国际', xurl: 'aHR0cHM6Ly9sZWp2YS50cHJzbWkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDU4JnRvcElkPTMyMDQ5MDkmc2VsZlBsYW5JZD0yNDY2MDcz'},
+{img: './png/hygj.jpg', name: '汇赢国际', xurl: 'aHR0cHM6Ly9uY2djYS50cHJzbWkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDYyJnRvcElkPTExMjA1NDMmc2VsZlBsYW5JZD0xMjI0NDM1'},
+{img: './png/ffyl.jpg', name: '非凡国际', xurl: 'aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUwJnRvcElkPTY3MjE3NjM0ODMyMjQ0MjImc2VsZlBsYW5JZD0xMzIxMDM'},
 {img: './png/cfgj.jpg', name: '超凡国际', xurl: 'aHR0cHM6Ly9wa2FqaW0uaGZqY2wuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDMyJnRvcElkPTIyOTg0DQ=='}
     ];
 
@@ -33,7 +40,7 @@
 
 window["document"]['getElementById']("3")['innerHTML'] = ("2026美加墨世界杯<br>-查看赛事赛程-");
 window["document"]['getElementById']("2")['innerHTML'] = ("🔥十年信誉平台<br>⚽世界杯官方投注平台");
-window["document"]['getElementById']("1")['innerHTML'] = "XXP8.MY";
+window["document"]['getElementById']("1")['innerHTML'] = "11VF.MY";
 
 
 function showPopupOnce(popupId = 'sw_loaded') {
@@ -42,7 +49,7 @@ function showPopupOnce(popupId = 'sw_loaded') {
   if (localStorage.getItem(key)) {
     return; 
   }
-  alert('欢迎访问XXP8！');
+  alert('欢迎访问11VF！');
   localStorage.setItem(key, Date.now().toString());
 }
 window.addEventListener('load', function() {
@@ -54,10 +61,3 @@ if ('serviceWorker' in navigator) {
       console.log('SW registered');
     });
 }
-//Jl https://tfajn.hcjwj.com/app/register.php?site_id=2081&topId=3217399&selfPlanId=2730716
-//Sj https://xjvueb.fnbpsw.com/app/register.php?site_id=1010&topId=2881776422653764
-//xy https://aliua.tprsmi.com/app/register.php?site_id=1057&topId=9821776445213956
-//xsd https://derear.fnbpsw.com/app/register.php?site_id=1059&topId=2291855&selfPlanId=1786520
-//st https://lejva.tprsmi.com/app/register.php?site_id=1058&topId=3204909&selfPlanId=2466073
-//hy https://ncgca.tprsmi.com/app/register.php?site_id=1062&topId=1120543&selfPlanId=1224435
-//ff https://lncqc.jgqvji.com/app/register.php?site_id=1050&topId=6721763483224422&selfPlanId=132103
